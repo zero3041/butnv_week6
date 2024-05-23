@@ -3,11 +3,11 @@
     <type name="Magento\Framework\View\Element\UiComponent\DataProvider\CollectionFactory">
         <arguments>
             <argument name="collections" xsi:type="array">
-                <item name="bss_internship_customer_listing_data_source" xsi:type="string">Bss\InternShip\Model\ResourceModel\Collection</item>
+                <item name="bss_internship_customer_listing_data_source" xsi:type="string">Bss\InternShip\Model\ResourceModel\Internship\Collection</item>
             </argument>
         </arguments>
     </type>
-    <virtualType name="Bss\InternShip\Model\ResourceModel\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
+    <virtualType name="Bss\InternShip\Model\ResourceModel\Internship\Collection" type="Magento\Framework\View\Element\UiComponent\DataProvider\SearchResult">
         <arguments>
             <argument name="mainTable" xsi:type="string">bss_internship</argument>
 <!--            <argument name="resourceModel" xsi:type="string">Bss\InternShip\Model\ResourceModel</argument>-->

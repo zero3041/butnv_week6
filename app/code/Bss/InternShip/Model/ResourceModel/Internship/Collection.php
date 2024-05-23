@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace Bss\InternShip\Model\ResourceModel;
+namespace Bss\InternShip\Model\ResourceModel\Internship;
 
 use Bss\InternShip\Model\Internship;
 use Bss\InternShip\Model\ResourceModel\Internship as InternshipResourceModel;
