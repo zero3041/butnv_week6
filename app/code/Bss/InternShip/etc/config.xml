@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+    <default>
+        <bss_customer>
+            <general>
+                <internship_enable>1</internship_enable>
+            </general>
+        </bss_customer>
+    </default>
+</config>

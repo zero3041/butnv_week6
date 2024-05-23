@@ -1,0 +1,13 @@
+<?php ?>
+<form id="internship-form" action="<?= $escaper->escapeUrl($block->getUrl('bss/internship/save')) ?>" method="post">
+    <input type="text" name="firstname" id="firstname" placeholder="firstname" required>
+    <input type="text" name="lastname" id="lastname" placeholder="lastname" required>
+    <input type="date" name="date" id="date" required>
+    <select name="gender" id="gender" required>
+        <option value="male">Male</option>
+        <option value="female">Female</option>
+    </select>
+    <input type="text" name="address" id="address" placeholder="Address" required>
+    <input type="email" name="email" id="email" placeholder="Email" required>
+    <button type="submit">Submit</button>
+</form>

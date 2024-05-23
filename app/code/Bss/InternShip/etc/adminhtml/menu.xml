@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * Copyright © Magento, Inc. All rights reserved.
+ * See COPYING.txt for license details.
+ */
+-->
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add
+            id="Bss_InternShip::customer_data"
+            title="Customers Data"
+            translate="title"
+            module="Bss_InternShip"
+            sortOrder="100"
+            parent="Magento_Customer::customer"
+            action="bss/customer/"
+            resource="Bss_InternShip::customer"/>
+    </menu>
+</config>
